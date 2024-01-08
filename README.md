@@ -22,7 +22,7 @@ Certifique-se de ter um navegador web moderno instalado, como Google Chrome, Moz
 
 - `index.html`: Página principal da aplicação.
 - `style.css`: Estilos CSS para a aparência da aplicação.
-- `assets/`: Pasta contendo imagens e outros recursos utilizados na aplicação.
+- `iamges/`: Pasta contendo imagens e outros recursos utilizados na aplicação.
 
 ## Tecnologias Utilizadas
 
