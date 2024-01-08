@@ -3,32 +3,30 @@ body {
 
   font-family: "Open Sans", sans-serif;
 
-  background: linear-gradient(
-    90deg,
-    rgb(227, 255, 248, 0) 82.08%,
-    rgb(227, 255, 248, 0.38) 100%
-  );
+  background: linear-gradient(180deg, rgb(227, 255, 248, 0) 82.08%, rgb(227, 255, 248, 0.38) 100%);
 
   min-height: 100vh;
 }
 
 .page {
+  width: 1000px;
   margin: 0 auto;
-  padding: 65px 122px 0;
+  padding-top: 65px;
 }
 
-nav {
+header nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 70px;
+
+  margin-bottom: 55px;
 }
 
-ul {
+header nav ul {
   display: flex;
+  gap: 48px;
   list-style: none;
   margin: 0;
-  gap: 48px;
   padding: 0;
 }
 
@@ -37,24 +35,23 @@ a {
   text-decoration: none;
 }
 
-ul li a {
-  opacity: 0.5;
+header nav ul li a {
+    opacity: 0.5;
 }
 
-ul li a:hover {
+header nav ul li a:hover {
   font-weight: bold;
   opacity: 1;
 }
 
-main{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+header nav ul, h1 {
+  font-family: "Mulish", sans-serif;
 }
 
-h1,
-ul {
-  font-family: "Mulish", sans-serif;
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 h1 {
@@ -72,7 +69,7 @@ h1 span {
   font-weight: bold;
 }
 
-section p {
+p {
   font-size: 14px;
   line-height: 28px;
   color: #7d7987;
@@ -82,23 +79,21 @@ section p {
 
 button {
   color: white;
+  text-transform: uppercase;
   font-family: "Open Sans", sans-serif;
 
-  background: #69b99d;
+  background: #69B99D;
   border: 0;
-  padding: 14px 32px;
+  padding: 14px 32px 15px;
 
   display: flex;
-  justify-content: center;
-  gap: 8px;
-  border-radius: 4px;
-  text-align: center;
   align-items: center;
-  cursor: pointer;
-}
+  justify-content: center;
+  gap: 10px;
 
-button:hover {
-  background: #4ea788;
+  border-radius: 4px;
+
+  cursor: pointer;
 }
 
 footer {
@@ -107,7 +102,7 @@ footer {
 
   text-align: center;
 
-  margin: 72px;
+  margin: 92px 0 30px;
 }
 
 footer a {
@@ -115,7 +110,7 @@ footer a {
 }
 
 #balls {
-  position: fixed;
-  bottom: 0;
-  right: 0;
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }
