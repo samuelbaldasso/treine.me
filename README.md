@@ -13,7 +13,7 @@ Certifique-se de ter um navegador web moderno instalado, como Google Chrome, Moz
 1. Clone este repositório ou faça o download do arquivo ZIP.
 
     ```bash
-    git clone https://github.com/seu-usuario/treine.me.git
+    git clone https://github.com/samuelbaldasso/treine.me.git
     ```
 
 2. Abra o arquivo `index.html` em um navegador web.
